@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-import UserCard from "../components/UserCard"
+import HomePageLayout from '../components/HomePageLayout';
 
 class HomePageContainer extends Component {
     render() {
-        return <UserCard />
+        return <HomePageLayout />
     }
 }
 
